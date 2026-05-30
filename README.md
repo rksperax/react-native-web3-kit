@@ -1,6 +1,7 @@
 # react-native-web3-kit
 
 [![CI](https://github.com/rksperax/react-native-web3-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/rksperax/react-native-web3-kit/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/react-native-web3-kit.svg)](https://www.npmjs.com/package/react-native-web3-kit)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue)](https://www.typescriptlang.org/)
 

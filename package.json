@@ -4,6 +4,13 @@
   "description": "Lightweight Web3 utilities for React Native wallets and DeFi apps",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "sideEffects": false,
   "files": [
     "dist",
     "README.md",
@@ -35,6 +42,10 @@
     "url": "https://github.com/rksperax/react-native-web3-kit/issues"
   },
   "homepage": "https://github.com/rksperax/react-native-web3-kit#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "devDependencies": {
     "@types/react": "^18.2.0",
     "react": "^18.2.0",
