@@ -1,0 +1,52 @@
+{
+  "name": "react-native-web3-kit",
+  "version": "0.1.0",
+  "description": "Lightweight Web3 utilities for React Native wallets and DeFi apps",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build && npm run test"
+  },
+  "keywords": [
+    "react-native",
+    "web3",
+    "ethereum",
+    "wallet",
+    "defi",
+    "crypto",
+    "utilities"
+  ],
+  "author": "Rajan Kumar <rajankumar.it.msit@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rksperax/react-native-web3-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rksperax/react-native-web3-kit/issues"
+  },
+  "homepage": "https://github.com/rksperax/react-native-web3-kit#readme",
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "react": "^18.2.0",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  }
+}
